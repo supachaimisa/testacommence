@@ -1,0 +1,29 @@
+.card:hover{
+    transition: transform .3s;
+    box-shadow: 1px 1px 10px;
+    transform: scale(1.1);
+    z-index: 100;
+    transition-timing-function: ease;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-number {
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    /* border: ; */
+    background-color: rgb(255, 174, 174);
+    cursor: pointer;
+    align-items: center;
+    vertical-align: middle;
+}
+.active{
+    background-color: rgb(255, 47, 47);
+}
+.next{
+    color: white;
+    background-color: rgb(212, 212, 212);
+}
